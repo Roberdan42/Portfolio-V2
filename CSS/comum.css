@@ -1,0 +1,9 @@
+:root {
+    --fonte-branca: #F2F2F2;
+    --fundo-preto: #2F2F2F;
+    --fundo-azul: #92ADFF;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}

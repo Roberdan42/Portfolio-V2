@@ -1,0 +1,33 @@
+.planos-e-contato {
+    background: var(--fundo-preto);
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.planos {
+    width: 40vw;
+    padding: 1em;
+}
+
+.contato {
+    width: 40vw;
+    padding: 1em;
+}
+
+.planos__titulo, .contato__titulo {
+    color: var(--fonte-branca);
+    font-size: 2em;
+    
+}
+
+.planos__texto, .contato__texto {
+    color: var(--fonte-branca);
+    padding: 1em 0;
+
+    line-height: 1.3;
+}
+
+.bold {
+    font-weight: bold;
+}

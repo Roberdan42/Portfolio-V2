@@ -1,0 +1,55 @@
+.introducao {
+    display: flex;
+    align-items: center;
+
+    padding: 2.5em 0;
+
+    background: var(--fundo-azul);
+}
+
+.apresentacao {
+    width: 40vw;
+
+    margin: 0 0 0 5em;
+}
+
+.apresentacao__nome {
+    font-size: 1.75em;
+    font-weight: 500;
+}
+
+.apresentacao__texto {
+    font-size: 1.25em;
+    line-height: 1.1em;
+
+    margin: 0.5em 0;
+}
+
+.desenho__habilidades {
+    display: flex;
+
+    margin: 0 0 0 5em;
+}
+
+.desenho {
+    width: 15vw;
+    height: 15vw;
+}
+
+.habilidades {
+    margin: 0 1em;
+}
+
+.habilidades__titulo {
+    font-size: 1.75em;
+    margin: 0.5em;
+}
+
+.habilidades__lista {
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+.habilidades__itens {
+    margin: 0.25em;
+}

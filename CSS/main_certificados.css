@@ -1,0 +1,47 @@
+.certificados {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(2, auto);
+
+    background: var(--fundo-azul);
+
+    padding: 0.5em 0 1.5em 0;
+}
+
+.certificados__titulo {
+    text-align: center;
+    grid-column: span 3;
+
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+.certificados__slot-1, .certificados__slot-2, .certificados__slot-3 {
+    color: #121212;
+    text-align: center;
+}
+
+.certificados__slot-2 {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+.certificados__subtitulo {
+    font-size: 1.35em;
+    padding: 0.75em 0;
+}
+
+.certificados__item {
+    padding: 0.25em;
+}
+
+.certificados__link {
+    padding: 0.5em 0;
+
+    color: #121212;
+    text-decoration: none;
+}
+
+.certificados__link:hover {
+    text-decoration: underline;
+}
